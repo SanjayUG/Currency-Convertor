@@ -27,7 +27,7 @@ function App() {
     <div
       className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
       style={{
-        backgroundImage: `url('https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
+        backgroundImage: `url('https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg')`,
       }}
     >
       <div className="w-full">
@@ -51,7 +51,7 @@ function App() {
             <div className="relative w-full h-0.5 mb-4">
               <button
                 type="button"
-                className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 border-2 border-white rounded-md bg-blue-600 text-white px-2 py-0.5"
+                className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 border-2 border-white rounded-md bg-pink-600 text-white px-2 py-0.5"
                 onClick={swap}
               >
                 Swap
@@ -67,7 +67,7 @@ function App() {
                 amountDisable
               />
             </div>
-            <button type="submit" className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg">
+            <button type="submit" className="w-full bg-green-600 text-white px-4 py-3 rounded-lg">
               Convert
             </button>
           </form>
